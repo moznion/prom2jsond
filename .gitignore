@@ -1,0 +1,7 @@
+/Gopkg.lock
+/vendor/
+/bin/*
+!/bin/.gitkeep
+
+/.idea/
+

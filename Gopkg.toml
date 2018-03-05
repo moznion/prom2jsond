@@ -1,0 +1,3 @@
+[[constraint]]
+  name = "github.com/prometheus/prom2json"
+  revision = "daa2bca1c13fce65dabc24d4fbd5054d50cf66d9"

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu
+
 REPO_ROOT="$(cd ./"$(git rev-parse --show-cdup)" || exit; pwd)"
 PROM2JSON_PATH="$REPO_ROOT/vendor/github.com/prometheus/prom2json"
 BIN_PATH="$REPO_ROOT/bin"

@@ -31,12 +31,13 @@ $ curl localhost:8080/stats # => output
 ```
 
 ### Execute with Docker
---
 
 ```
-$ docker run -it -p 8080:8080 prom2jsond:latest --path=/stats --port=8080 http://app.example.com/target/stats
+$ docker run -it -p 8080:8080 moznion/prom2jsond --path=/stats --port=8080 http://app.example.com/target/stats
 $ curl localhost:8080/stats # => output
 ```
+
+See also Docker Hub: [https://hub.docker.com/r/moznion/prom2jsond/](https://hub.docker.com/r/moznion/prom2jsond/)
 
 How to build the binary
 --
